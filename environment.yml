@@ -1,11 +1,12 @@
-name: pycalc
+name: pycalculix-env
 channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - numpy=1.23
   - pip
+  - numpy=1.23
   - gmsh
-  - matplotlib     # recommended for plotting
+  - calculix
+  - matplotlib
   - pip:
-      - pycalculix
+      - git+https://github.com/spacether/pycalculix.git
