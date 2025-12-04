@@ -1,7 +1,11 @@
 name: pycalc
+channels:
+  - conda-forge
 dependencies:
   - python=3.10
   - numpy=1.23
   - pip
+  - gmsh
+  - matplotlib     # recommended for plotting
   - pip:
       - pycalculix
