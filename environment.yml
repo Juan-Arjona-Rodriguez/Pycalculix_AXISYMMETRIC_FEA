@@ -1,0 +1,7 @@
+name: pycalc
+dependencies:
+  - python=3.10
+  - numpy=1.23
+  - pip
+  - pip:
+      - pycalculix
